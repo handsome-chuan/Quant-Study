@@ -4,7 +4,15 @@ import matplotlib.pyplot as plt
 from unittest import TestCase
 
 class TestNumpyMA(TestCase):
-
+    """
+    This class is used to test the proformance of numpy in calculating
+    Simple Moving Average and Exponential Moving Average
+    
+    fname: str, the name of the file
+    delimiter: str, the string used to separate values
+    usecols: tuple, the reciprocal of read data, which columns to read, with 0 being the first
+    unpack: bool, whether to unpack the columns into separate arrays
+    """
 
     #Calculate 5-day SMA(Simple Moving Average)
     def testSMA(self):
