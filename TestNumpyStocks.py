@@ -3,6 +3,9 @@ from unittest import TestCase
 
 class TestNumpyStock(TestCase):
     """
+    This class is used to test the performance of numpy
+    in basic stock data operation
+
     fname: str, the name of the file
     delimiter: str, the string used to separate values
     usecols: tuple, the reciprocal of read data, which columns to read, with 0 being the first
